@@ -56,45 +56,66 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(100,100)" name="Pin">
+    <comp lib="0" loc="(130,120)" name="Pin">
       <a name="appearance" val="classic"/>
     </comp>
-    <comp lib="0" loc="(100,160)" name="Pin">
+    <comp lib="0" loc="(130,170)" name="Pin">
       <a name="appearance" val="classic"/>
     </comp>
-    <comp lib="1" loc="(240,130)" name="XOR Gate"/>
-    <comp lib="1" loc="(240,220)" name="AND Gate"/>
-    <comp lib="5" loc="(290,130)" name="LED"/>
-    <comp lib="5" loc="(290,220)" name="LED"/>
-    <comp lib="8" loc="(343,134)" name="Text">
+    <comp lib="0" loc="(130,80)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="1" loc="(270,100)" name="XOR Gate"/>
+    <comp lib="1" loc="(360,150)" name="XOR Gate"/>
+    <comp lib="1" loc="(360,210)" name="AND Gate"/>
+    <comp lib="1" loc="(360,270)" name="AND Gate"/>
+    <comp lib="1" loc="(450,240)" name="OR Gate"/>
+    <comp lib="5" loc="(470,150)" name="LED"/>
+    <comp lib="5" loc="(470,240)" name="LED"/>
+    <comp lib="8" loc="(523,153)" name="Text">
       <a name="font" val="SansSerif bold 10"/>
       <a name="text" val="Sum Output"/>
     </comp>
-    <comp lib="8" loc="(347,224)" name="Text">
+    <comp lib="8" loc="(523,244)" name="Text">
       <a name="font" val="SansSerif bold 10"/>
       <a name="text" val="Carry Output"/>
     </comp>
-    <comp lib="8" loc="(59,104)" name="Text">
-      <a name="font" val="SansSerif bold 10"/>
-      <a name="text" val="input 1"/>
-    </comp>
-    <comp lib="8" loc="(59,163)" name="Text">
+    <comp lib="8" loc="(86,124)" name="Text">
       <a name="font" val="SansSerif bold 10"/>
       <a name="text" val="input 2"/>
     </comp>
-    <wire from="(100,100)" to="(140,100)"/>
-    <wire from="(100,160)" to="(130,160)"/>
-    <wire from="(130,160)" to="(130,240)"/>
-    <wire from="(130,160)" to="(160,160)"/>
-    <wire from="(130,240)" to="(190,240)"/>
-    <wire from="(140,100)" to="(140,200)"/>
-    <wire from="(140,100)" to="(160,100)"/>
-    <wire from="(140,200)" to="(190,200)"/>
-    <wire from="(160,100)" to="(160,110)"/>
-    <wire from="(160,110)" to="(180,110)"/>
-    <wire from="(160,150)" to="(160,160)"/>
-    <wire from="(160,150)" to="(180,150)"/>
-    <wire from="(240,130)" to="(290,130)"/>
-    <wire from="(240,220)" to="(290,220)"/>
+    <comp lib="8" loc="(86,86)" name="Text">
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="text" val="input 1"/>
+    </comp>
+    <comp lib="8" loc="(87,174)" name="Text">
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="text" val="carry in"/>
+    </comp>
+    <wire from="(130,120)" to="(160,120)"/>
+    <wire from="(130,170)" to="(230,170)"/>
+    <wire from="(130,80)" to="(180,80)"/>
+    <wire from="(160,120)" to="(160,250)"/>
+    <wire from="(160,120)" to="(210,120)"/>
+    <wire from="(160,250)" to="(310,250)"/>
+    <wire from="(180,290)" to="(310,290)"/>
+    <wire from="(180,80)" to="(180,290)"/>
+    <wire from="(180,80)" to="(210,80)"/>
+    <wire from="(230,170)" to="(230,230)"/>
+    <wire from="(230,170)" to="(300,170)"/>
+    <wire from="(230,230)" to="(310,230)"/>
+    <wire from="(270,100)" to="(280,100)"/>
+    <wire from="(280,100)" to="(280,130)"/>
+    <wire from="(280,130)" to="(280,190)"/>
+    <wire from="(280,130)" to="(300,130)"/>
+    <wire from="(280,190)" to="(310,190)"/>
+    <wire from="(360,150)" to="(470,150)"/>
+    <wire from="(360,210)" to="(390,210)"/>
+    <wire from="(360,270)" to="(390,270)"/>
+    <wire from="(390,210)" to="(390,220)"/>
+    <wire from="(390,220)" to="(400,220)"/>
+    <wire from="(390,260)" to="(390,270)"/>
+    <wire from="(390,260)" to="(400,260)"/>
+    <wire from="(450,240)" to="(470,240)"/>
   </circuit>
 </project>
