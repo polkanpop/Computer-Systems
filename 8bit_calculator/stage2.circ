@@ -155,8 +155,8 @@
     <comp lib="0" loc="(970,900)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="facing" val="south"/>
-      <a name="fanout" val="9"/>
-      <a name="incoming" val="9"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
     </comp>
     <comp lib="5" loc="(1010,110)" name="Button"/>
     <comp lib="5" loc="(1020,960)" name="LED">
@@ -224,9 +224,6 @@
     <comp lib="5" loc="(690,720)" name="LED">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="5" loc="(720,960)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="5" loc="(740,720)" name="LED">
       <a name="facing" val="north"/>
     </comp>
@@ -288,7 +285,7 @@
     <comp lib="8" loc="(650,90)" name="Text">
       <a name="text" val="Input A"/>
     </comp>
-    <comp lib="8" loc="(892,855)" name="Text">
+    <comp lib="8" loc="(890,855)" name="Text">
       <a name="text" val="Output"/>
     </comp>
     <comp lib="8" loc="(995,90)" name="Text">
@@ -413,8 +410,6 @@
     <wire from="(690,270)" to="(730,270)"/>
     <wire from="(690,670)" to="(690,720)"/>
     <wire from="(720,130)" to="(720,170)"/>
-    <wire from="(720,920)" to="(720,960)"/>
-    <wire from="(720,920)" to="(880,920)"/>
     <wire from="(730,270)" to="(730,420)"/>
     <wire from="(730,420)" to="(1530,420)"/>
     <wire from="(730,420)" to="(730,630)"/>
@@ -618,18 +613,18 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="Addition"/>
     </comp>
-    <comp lib="0" loc="(1880,790)" name="Pin">
+    <comp lib="0" loc="(1880,780)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="output_bits"/>
       <a name="output" val="true"/>
-      <a name="width" val="9"/>
+      <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(1880,790)" name="Splitter">
+    <comp lib="0" loc="(1880,780)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="facing" val="west"/>
-      <a name="fanout" val="9"/>
-      <a name="incoming" val="9"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
     </comp>
     <comp lib="1" loc="(680,1070)" name="XOR Gate"/>
     <comp lib="1" loc="(680,1180)" name="AND Gate"/>
@@ -692,6 +687,7 @@
     <comp lib="4" loc="(1330,820)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
+    <comp lib="5" loc="(1540,1820)" name="LED"/>
     <wire from="(1200,1090)" to="(1200,1310)"/>
     <wire from="(1200,1090)" to="(1320,1090)"/>
     <wire from="(1200,1310)" to="(1200,1530)"/>
@@ -726,8 +722,6 @@
     <wire from="(1420,770)" to="(1420,1710)"/>
     <wire from="(1420,770)" to="(1860,770)"/>
     <wire from="(150,40)" to="(1200,40)"/>
-    <wire from="(1540,780)" to="(1540,1820)"/>
-    <wire from="(1540,780)" to="(1860,780)"/>
     <wire from="(160,170)" to="(610,170)"/>
     <wire from="(160,180)" to="(590,180)"/>
     <wire from="(160,190)" to="(570,190)"/>
