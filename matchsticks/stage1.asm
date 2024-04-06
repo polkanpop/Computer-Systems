@@ -22,9 +22,6 @@ bl PrintInfo
 
 
 
-bl NewLine
-mov r10, #727
-str r10, .WriteUnsignedNum
 halt
 
 
