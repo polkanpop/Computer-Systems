@@ -1,4 +1,5 @@
-
+// Name: Luu Hieu Khang
+// ID: 104993706
 
 // getting player name
 mov r0, #namePrompt

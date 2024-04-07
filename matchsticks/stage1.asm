@@ -1,14 +1,13 @@
-
-
+// Name: Luu Hieu Khang
+// ID: 104993706
 // getting player name
 
 mov r0, #namePrompt
-mov r1, #namePlayer 
+mov r1, #namePlayer
 bl InputString
 bl NewLine
 
 mov r0, #matchsticksPrompt
-mov r1, #matchsticksNum
 bl InputMatchsticks //this function stores the input number into R2
 cmp r2, #5
 blt Error 
